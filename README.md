@@ -20,12 +20,12 @@ Why would you want to do this? The default training tab of text-generation-webui
    cd safetensor-to-bin
    ```
 2. **Create the conda env**
-3. 
+   
    ```bash
    conda create --name safetensor-to-bin python=3.11
    conda activate safetensor-to-bin
    ```
-2. **Install Requirements**:
+3. **Install Requirements**:
 
    ```bash
    pip install -r requirements.txt
