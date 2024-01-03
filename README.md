@@ -19,7 +19,7 @@ Why would you want to do this? The default training tab of text-generation-webui
    git clone https://github.com/davidtorcivia/safetensor-to-bin.git
    cd safetensor-to-bin
    ```
-2. **Create the conda env**
+2. **Create the conda env**:
    
    ```bash
    conda create --name safetensor-to-bin python=3.11
