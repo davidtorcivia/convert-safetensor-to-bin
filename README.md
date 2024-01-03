@@ -23,12 +23,13 @@ Why would you want to do this? The default training tab of text-generation-webui
    ```
 2. **Install Requirements**:
 
-  ```bash
+   ```bash
    pip install -r requirements.txt
-  ```
+   ```
 3. **Usage**:
-  Run the script from the command line by providing the path to the .safetensors file and the desired output path for the .bin file.
-  ```bash
+
+   Run the script from the command line by providing the path to the .safetensors file and the desired output path for the .bin file.
+   ```bash
    python safetensor-to-bin.py path/to/adapter_model.safetensors path/to/adapter_model.bin
-  ```
-  Replace path/to/adapter_model.safetensors and path/to/adapter_model.bin with the actual paths to your .safetensors file and the desired output path, respectively.
+   ```
+   Replace path/to/adapter_model.safetensors and path/to/adapter_model.bin with the actual paths to your .safetensors file and the desired output path, respectively.
