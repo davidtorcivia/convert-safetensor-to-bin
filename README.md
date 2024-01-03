@@ -26,7 +26,7 @@ Why would you want to do this? The default training tab of text-generation-webui
    ```bash
    pip install -r requirements.txt
    ```
-### Usage**
+### Usage
 
    Run the script from the command line by providing the path to the .safetensors file and the desired output path for the .bin file.
    ```bash
