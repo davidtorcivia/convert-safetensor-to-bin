@@ -32,7 +32,7 @@ Why would you want to do this? The default training tab of text-generation-webui
    ```
 ### Usage
 
-   Run the script from the command line by providing the path to the .safetensors file and the desired output path for the .bin file.
+   Make sure you're in the directory with the script and that your conda environment is active (`conda activate safetensor-to-bin`). Run the script from the command line by providing the path to the .safetensors file and the desired output path for the .bin file.
    ```bash
    python safetensor-to-bin.py path/to/adapter_model.safetensors path/to/adapter_model.bin
    ```
